@@ -45,7 +45,7 @@ public class Springboot2Ehcache3ExampleApplication {
             cache.put(5L, new Employee(5L, "Uchiha", "Madara"));
 
             //Get entry from cache
-            logger.info(cache.get(3L).get());
+            logger.info(cache.get(5L).get());
         };
     }
 }

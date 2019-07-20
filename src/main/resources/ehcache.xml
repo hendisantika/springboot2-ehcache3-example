@@ -14,7 +14,7 @@
         </expiry>
         <listeners>
             <listener>
-                <class>com.company.CustomCacheEventLogger</class>
+                <class>com.hendisantika.springboot2ehcache3example.listener.CustomCacheEventLogger</class>
                 <event-firing-mode>ASYNCHRONOUS</event-firing-mode>
                 <event-ordering-mode>UNORDERED</event-ordering-mode>
                 <events-to-fire-on>CREATED</events-to-fire-on>
